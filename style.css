@@ -1,0 +1,62 @@
+input[type=text], select, textarea{
+    font-family: monospace;
+    width: 60%;
+    padding: 12px;
+    border: 5px solid rgb(170, 93, 82);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    font-family: monospace;
+    font-size: larger;
+    font-style: oblique;
+    margin-left: 47%;
+    padding: 10px 10px 20px 0;
+    display:inline-flex;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    font-family: monospace;
+    background-color: #611024;
+    color: white;
+    margin-right: 20%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 5px;
+    background-color: #b36464;
+    padding: 100px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
